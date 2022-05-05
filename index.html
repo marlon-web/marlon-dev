@@ -9,16 +9,23 @@
     <link rel="stylesheet" href="/dist/output.css">
     <title>Marlon Web - Desenvolvedor e Estrategista Digital</title>
 </head>
-<body class="text-gray-800 font-sans bg-gray-50">
+<body class="text-gray-800 font-sans bg-gray-50 overflow-x-hidden">
     <header>
-        <div class="container mx-auto">
+        <div class="container mx-auto relative">
+            <div class="absolute -bottom-32 md:-bottom-52 w-full h-full order-1">
+                <div id="animated-box-wrapper">
+                    <img src="./images/box.svg" class="w-16 h-16 relative left-8 top-10 z-10 md:left-52" title="box" alt="box">
+                    <img src="./images/box.svg" class="w-16 h-16 relative -right-72 top-70 z-10 md:-right-[1050px] lg:-right-[1450px] xl:-right-[1350px] lg:top-36" title="box" alt="box">
+                    <img src="./images/box.svg" class="w-16 h-16 relative left-1 top-10 z-10 md:left-36 md:top-96 lg:left-76" title="box" alt="box">
+                </div>
+            </div>
             <div class="flex justify-between items-baseline md:items-cente12 px-5 py-7">
                 <a href="#">
                     <div class="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
-                        <span class="ml-2 text-sm md:text-lg">hey@marlon-web.com</span>
+                        <span class="ml-2 text-sm md:text-lg">hey@marlon-dev.com</span>
                     </div>
                     
                 </a>
@@ -39,29 +46,81 @@
         </div>
     </header>
 
-    <section class="relative">
-        <div class="container mx-auto z-20">
-            <div class="flex flex-col text-center items-center">
-                
+    <section class="min-h-screen">
+        <div class="container mx-auto">
+            <div class="flex flex-col text-center items-center order-3">
+
                 <img class="rounded-full w-5/12 max-w-[200px] md:mt-16 mx-auto my-10" src="./images/my_emoji.jpg" title="Olá" alt="meu emoji">
 
                 <div class="max-w-5xl">
                     <h1 class="font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight mb-12">
-                        <span class="text-blue-600">Desenvolvendo</span> produtos digitais, <span class="text-blue-600">estratégias</span> e boas <span class="text-blue-600">experiências.</span> 
+                        <span class="text-blue-600">Desenvolvendo</span> produtos digitais, <span class="text-blue-600">estratégias</span> e boas <span class="text-blue-600">experiências.</span>
                     </h1>
                     <p class="font-regular mx-5 max-w-7xl text-center md:text-lg">Desenvolvedor e estrategista digital no Ceará  🌊🌴.  <span class="font-semibold">Especializado</span> em  desenvolvimento de software, focado em entregar não somente código, mas de fato <span class="font-semibold">soluções</span>.</p>
                 </div>
-
-                
+                <a title="Me chama" class="text-blue-600 underline text-center font-semibold mt-7 flex" href="https://wa.me/85991728540">
+                    <span>Me chama</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </a>
             </div>
         </div>
-        <div class="absolute top-0 w-full h-full">
-            <div id="animated-box-wrapper">
-                <img src="./images/box.svg" class="w-16 h-16 relative left-10 top-10 z-10 md:left-52" title="box" alt="box">
-                <img src="./images/box.svg" class="w-16 h-16 relative -right-80 top-70 z-10 md:-right-[1050px] lg:-right-[1450px] xl:-right-[1350px] lg:top-36" title="box" alt="box">
-                <img src="./images/box.svg" class="w-16 h-16 relative left-1 top-10 z-10 md:left-36 md:top-96 lg:left-76" title="box" alt="box">
+
+
+
+
+    </section>
+
+    <section>
+        <div class="container mx-auto">
+            <div class="flex flex-col px-5">
+                <div class="h-full">
+                    <h1 class="font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight mb-12 text-center type-writer">
+                        Como eu posso te ajudar?
+                    </h1>
+                </div>
+                <div class="flex flex-col md:flex-row justify-center mb-10">
+                    <div class="bg-white flex flex-col p-5 mb-5 flex-1 mr-8 max-w-[350px] shadow-[11px_14px_0px_4px_rgba(84,178,247,0.69)]">
+                       <span class="text-4xl">🎯</span>
+                        <span class="font-semibold text-2xl mb-5">Estratégia Digital</span>
+                        <p class="font-regular max-w-7xl">Desenvolvedor e estrategista digital no Ceará  🌊🌴.  <span class="font-semibold">Especializado</span> em  desenvolvimento de software, focado em entregar não somente código, mas de fato <span class="font-semibold">soluções</span>.</p>
+                    </div>
+
+                    <div class="bg-white flex flex-col p-5 mb-5 flex-1 mr-8 max-w-[350px] shadow-[11px_14px_0px_4px_rgba(84,178,247,0.69)]">
+                        <span class="text-4xl">🔥</span>
+                        <span class="font-semibold text-2xl mb-5">Desenvolvimento de Software</span>
+                        <p class="font-regular max-w-7xl">
+                            Especializado em Desenvolvimento web, construo de web sites e landing pages a sistemas, interativos e robustos, cumprindo os critérios de excelência estabelecidos.
+                        </p>
+                    </div>
+
+                    <div class="bg-white flex flex-col p-5 mb-5 flex-1 max-w-[350px] shadow-[11px_14px_0px_4px_rgba(84,178,247,0.69)]">
+                        <span class="text-4xl">🔥</span>
+                        <span class="font-semibold text-2xl mb-5">Desenvolvimento de Software</span>
+                        <p class="font-regular max-w-7xl">
+                            Especializado em Desenvolvimento web, construo de web sites e landing pages a sistemas, interativos e robustos, cumprindo os critérios de excelência estabelecidos.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <script>
+        function typeWriter(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+                setTimeout(() => elemento.innerHTML += letra, 75 * i);
+            });
+        }
+
+        const titles = document.querySelectorAll('.type-writer');
+        titles.forEach(title => {
+            typeWriter(title);
+        })
+
+    </script>
 </body>
 </html>
